@@ -73,6 +73,7 @@ const ChartFour: React.FC = () => {
       fontFamily: "inter",
 
       markers: {
+        // @ts-ignore
         radius: 99,
       },
     },
@@ -111,7 +112,9 @@ const ChartFour: React.FC = () => {
       </div>
 
       <div className="mt-3">
-        <p className="text-[12px] text-[#757B8B8A] dark:text-white">Tests Taken</p>
+        <p className="text-[12px] text-[#757B8B8A] dark:text-white">
+          Tests Taken
+        </p>
         <p className="text-[18px] text-[#757B8B] dark:text-white">1056</p>
       </div>
 
